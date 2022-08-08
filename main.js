@@ -32,7 +32,8 @@ server.use((req, res, next) => {
 server.use("/api/auth", auth); // chổ này là cấu hình đường dẫn cho phần auth vd đường dẫn base là http://localhost:3001/
 //thì đường dẫn vào trang đăng kí sẽ là http://localhost:3001/api/auth/resgister
 server.use("/api", router); // chổ này là cấu hình đường dẫn vào api chính
-server.listen(3050, () => {
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {
   // nếu muốn thay đổi cổng lắng nghe thì đổi ở đây mặc định mình để 3003 để tránh trùng với reactjs
-  console.log("JSON Server is running on port 3050");
+  console.log("JSON Server is running");
 });
