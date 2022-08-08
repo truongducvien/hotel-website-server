@@ -6,10 +6,10 @@
       "typeRoom": "Ocean Suite",
       "price": 2475000,
       "quantity": 5,
-      "maxPerson": "2",
+      "maxPerson": 2,
       "bed": "1 King bed",
       "bathrooms": "1 Bathroom",
-      "convenient": "85.8m² • Pool view • Non-smoking • Kitchen • Wireless Internet • Iron/Ironing board • Air conditioned • Laundry Facilities • Room Safe • Tea/Coffee Maker • Room Service • Daily Room Service • Fridge • DVD Player • Mini Bar • Balcony • Telephone • Bathrobes Provided • Microwave • Television • Hairdryer • Heating • Alarm Clock • Wifi",
+      "convenient": "85.8m² • Pool view • Non-smoking • Kitchen • Wireless Internet • Iron/Ironing board • Air conditioned • Laundry Facilities • Room Safe • Tea/Coffee Maker • Room Service • Daily Room Service • Fridge • DVD Player • Mini Bar • Balcony • Telephone • Bathrobes Provided • Microwave • Television • Hairdryer • Heating • Alarm Clock",
       "introduction": "French colonial style blends charmingly with traditional Vietnamese interior design. Listen to the sound of the waves and watch the fishermen in their basket boats, while you are relaxing on one of the two outside sofas on the 24 sqm balcony. The suites are adorned with arched ceilings and offer a separate living room and bedroom, two marble bathrooms, two closets, TV for each room. Shiny, polished timber floors compliment the elegant and comfortable furniture.",
       "imageUrl": [
         "https://tbb-prod-apac.imgix.net/attachments/room_type_photos/images/476411/476411/1BR_Apartment_.1.jpg?auto=format,compress&fit=crop&crop=entropy&w=300&h=200&q=55",
@@ -25,10 +25,10 @@
           "key": "1a",
           "roomName": "OS01",
           "BookedDay": [],
-          "roomStatus": "available",
+          "roomStatus": "active",
           "currentBooking": {
-            "bookingId": "",
-            "userFullName": ""
+            "bookingId": 2,
+            "userFullName": "Minh Tran"
           }
         },
         {
@@ -99,10 +99,10 @@
           "key": "2a",
           "roomName": "OD01",
           "BookedDay": [],
-          "roomStatus": "active",
+          "roomStatus": "available",
           "currentBooking": {
-            "bookingId": "10",
-            "userFullName": "vien truong"
+            "bookingId": "",
+            "userFullName": ""
           }
         },
         {
@@ -121,7 +121,7 @@
           "key": "2c",
           "roomName": "OD03",
           "BookedDay": [],
-          "roomStatus": "busy",
+          "roomStatus": "available",
           "currentBooking": {
             "bookingId": "",
             "userFullName": ""
@@ -184,7 +184,7 @@
           "key": "3b",
           "roomName": "GS02",
           "BookedDay": [],
-          "roomStatus": "busy",
+          "roomStatus": "available",
           "currentBooking": {
             "bookingId": "",
             "userFullName": ""
@@ -478,7 +478,7 @@
           "roomPrice": 1849000,
           "roomName": "",
           "maxPerson": 2,
-          "status": "Checked-out"
+          "status": "Booked"
         },
         {
           "id": "1c363451-0bd3-4109-b314-8b9651f74e36",
@@ -489,7 +489,7 @@
           "roomPrice": 2149000,
           "roomName": "",
           "maxPerson": 2,
-          "status": "Checked-out"
+          "status": "Booked"
         },
         {
           "id": "0a67e266-4c82-49f8-8669-06697a7e6bac",
@@ -511,7 +511,7 @@
           "roomPrice": 5149000,
           "roomName": "",
           "maxPerson": 4,
-          "status": "Checked-out"
+          "status": "Booked"
         },
         {
           "id": "78890229-de8a-4e77-bb26-d6dbced6d38c",
@@ -536,7 +536,7 @@
           "status": "Booked"
         }
       ],
-      "status": "Finished",
+      "status": "Booked",
       "payment": {
         "method": "Credit/Debit Card",
         "payInfo": {
@@ -559,8 +559,8 @@
         "requests": ""
       },
       "date": {
-        "startDay": 1659496200000,
-        "endDay": 1659755400000
+        "startDay": 1659330000000,
+        "endDay": 1659502740999
       },
       "nights": 2,
       "options": [
@@ -573,7 +573,7 @@
           "roomPrice": 2149000,
           "roomName": "",
           "maxPerson": "",
-          "status": "Checked-out"
+          "status": "Booked"
         },
         {
           "id": "1baabe60-c2be-4caf-bf46-6a256ee372d3",
@@ -593,9 +593,9 @@
           "typeRoomId": "1",
           "typeRoom": "Ocean Suite",
           "roomPrice": 2475000,
-          "roomName": "",
+          "roomName": "OS01",
           "maxPerson": 2,
-          "status": "Checked-out"
+          "status": "Checked-in"
         },
         {
           "id": "acd3c59c-97b9-4569-a062-c4a8ad552f08",
@@ -631,7 +631,7 @@
           "status": "Booked"
         }
       ],
-      "status": "Finished",
+      "status": "Booked",
       "payment": {
         "method": "Cash",
         "payInfo": {
@@ -715,7 +715,7 @@
           "status": "Booked"
         }
       ],
-      "status": "Finished",
+      "status": "Booked",
       "payment": {
         "method": "Credit/Debit Card",
         "payInfo": {
@@ -752,7 +752,7 @@
           "roomPrice": 2149000,
           "roomName": "",
           "maxPerson": 2,
-          "status": "Expired"
+          "status": "Booked"
         },
         {
           "id": "bd0f1533-3f23-43e52a3df7a",
@@ -766,7 +766,7 @@
           "status": "Booked"
         }
       ],
-      "status": "Finished",
+      "status": "Booked",
       "payment": {
         "method": "Credit/Debit Card",
         "payInfo": {
@@ -777,319 +777,6 @@
       "createdAt": 1659102404747,
       "updateAt": 1659102404747,
       "id": 4
-    },
-    {
-      "userInfo": {
-        "id": 2,
-        "email": "ducvien@gmail.com",
-        "firstName": "duc vien",
-        "lastName": "truong",
-        "phone": "093176523",
-        "arrivalTime": "03:00 PM (15:00)",
-        "requests": ""
-      },
-      "date": {
-        "startDay": 1659675600000,
-        "endDay": 1659934740999
-      },
-      "nights": 3,
-      "options": [
-        {
-          "id": "4331cfa8-2a6a-4e9a-8d51-597a89d798dc",
-          "adult": 2,
-          "children": 0,
-          "typeRoomId": "2",
-          "typeRoom": "Ocean Deluxe",
-          "roomPrice": 1849000,
-          "roomName": "",
-          "maxPerson": 2,
-          "status": "Expired"
-        },
-        {
-          "id": "a974fe1c-47ff-4dbd-8697-1f7384dc3297",
-          "adult": 6,
-          "children": 0,
-          "typeRoomId": "6",
-          "typeRoom": "Pool Villas",
-          "roomPrice": 14269000,
-          "roomName": "",
-          "maxPerson": 10,
-          "status": "Expired"
-        },
-        {
-          "id": "8604b580-0f26-4313-9993-e2c079762d54",
-          "adult": 2,
-          "children": 1,
-          "typeRoomId": "1",
-          "typeRoom": "Ocean Suite",
-          "roomPrice": 2475000,
-          "roomName": "",
-          "maxPerson": 2,
-          "status": "Expired"
-        }
-      ],
-      "status": "Finished",
-      "payment": {
-        "method": "Cash",
-        "payInfo": {
-          "cardNumber": "",
-          "nameOnCard": ""
-        }
-      },
-      "createdAt": "2022-08-04T15:59:37.458Z",
-      "updateAt": "2022-08-04T15:59:37.458Z",
-      "id": 5
-    },
-    {
-      "userInfo": {
-        "id": 2,
-        "email": "ducvien@gmail.com",
-        "firstName": "duc",
-        "lastName": "vien",
-        "phone": "018764519413",
-        "arrivalTime": "05:00 PM (17:00)",
-        "requests": ""
-      },
-      "date": {
-        "startDay": 1659675600912,
-        "endDay": 1659761940912
-      },
-      "nights": 1,
-      "options": [
-        {
-          "id": "f84a5165-44fe-475a-8af2-d6bc164e4aef",
-          "adult": 2,
-          "children": 0,
-          "typeRoomId": "2892f727-5f9a-4855-97ce-8a08dda65841",
-          "typeRoom": "vip",
-          "roomPrice": "9231276",
-          "roomName": "",
-          "maxPerson": "7",
-          "status": "Expired"
-        }
-      ],
-      "status": "Finished",
-      "payment": {
-        "method": "Credit/Debit Card",
-        "payInfo": {
-          "cardNumber": "",
-          "nameOnCard": ""
-        }
-      },
-      "createdAt": "2022-08-05T12:47:35.127Z",
-      "updateAt": "2022-08-05T12:47:35.127Z",
-      "id": 6
-    },
-    {
-      "userInfo": {
-        "id": 2,
-        "email": "khang@gmail.com",
-        "firstName": "duc khang",
-        "lastName": "truong",
-        "phone": "0813496234",
-        "arrivalTime": "04:00 PM (16:00)",
-        "requests": "LKJAHdlfruh qoewufhglh qowugqf ljshogjqw ovuqhflvjnef quwehdn vBy proceeding with this booking, I "
-      },
-      "date": {
-        "startDay": 1659762000000,
-        "endDay": 1659934740999
-      },
-      "nights": 2,
-      "options": [
-        {
-          "id": "74b5ac00-ba79-4856-84fc-8efe9c81f4c9",
-          "adult": 2,
-          "children": 0,
-          "typeRoomId": "2892f727-5f9a-4855-97ce-8a08dda65841",
-          "typeRoom": "vip",
-          "roomPrice": "9231276",
-          "roomName": "",
-          "maxPerson": "7",
-          "status": "Checked-out"
-        }
-      ],
-      "status": "Finished",
-      "payment": {
-        "method": "Cash",
-        "payInfo": {
-          "cardNumber": "",
-          "nameOnCard": ""
-        }
-      },
-      "createdAt": "2022-08-05T12:48:40.707Z",
-      "updateAt": "2022-08-05T12:48:40.707Z",
-      "id": 7
-    },
-    {
-      "userInfo": {
-        "id": 2,
-        "email": "phuc@gmail.com",
-        "firstName": "vo",
-        "lastName": "phuc",
-        "phone": "02374696524",
-        "arrivalTime": "",
-        "requests": ""
-      },
-      "date": {
-        "startDay": 1659762000000,
-        "endDay": 1659934740999
-      },
-      "nights": 2,
-      "options": [
-        {
-          "id": "35d01e4f-9ef9-4ba9-ab69-120433062a18",
-          "adult": 2,
-          "children": 0,
-          "typeRoomId": "2892f727-5f9a-4855-97ce-8a08dda65841",
-          "typeRoom": "vip",
-          "roomPrice": "9231276",
-          "roomName": "",
-          "maxPerson": "7",
-          "status": "Booked"
-        }
-      ],
-      "status": "Finished",
-      "payment": {
-        "method": "Credit/Debit Card",
-        "payInfo": {
-          "cardNumber": "",
-          "nameOnCard": ""
-        }
-      },
-      "createdAt": "2022-08-05T12:49:50.078Z",
-      "updateAt": "2022-08-05T12:49:50.078Z",
-      "id": 8
-    },
-    {
-      "userInfo": {
-        "id": 2,
-        "email": "fwebf@gmail.com",
-        "firstName": "sghqef",
-        "lastName": "bèbwe",
-        "phone": "023847569234",
-        "arrivalTime": "",
-        "requests": ""
-      },
-      "date": {
-        "startDay": 1659675600250,
-        "endDay": 1659761940250
-      },
-      "nights": 1,
-      "options": [
-        {
-          "id": "dae6c1af-dbdb-47e7-93ac-a2331dc3072d",
-          "adult": 2,
-          "children": 0,
-          "typeRoomId": "2892f727-5f9a-4855-97ce-8a08dda65841",
-          "typeRoom": "vip",
-          "roomPrice": "9231276",
-          "roomName": "",
-          "maxPerson": "7",
-          "status": "Expired"
-        }
-      ],
-      "status": "Finished",
-      "payment": {
-        "method": "Credit/Debit Card",
-        "payInfo": {
-          "cardNumber": "",
-          "nameOnCard": ""
-        }
-      },
-      "createdAt": "2022-08-05T12:51:18.474Z",
-      "updateAt": "2022-08-05T12:51:18.474Z",
-      "id": 9
-    },
-    {
-      "userInfo": {
-        "id": 2,
-        "email": "cvmnb@mail.com",
-        "firstName": "vien",
-        "lastName": "truong",
-        "phone": "0183245691",
-        "arrivalTime": "",
-        "requests": ""
-      },
-      "date": {
-        "startDay": 1659762000000,
-        "endDay": 1659934740999
-      },
-      "nights": 2,
-      "options": [
-        {
-          "id": "a15306ce-1816-42dc-97a8-cb8ed7378e88",
-          "adult": 2,
-          "children": 0,
-          "typeRoomId": "2",
-          "typeRoom": "Ocean Deluxe",
-          "roomPrice": 1849000,
-          "roomName": "OD01",
-          "maxPerson": 2,
-          "status": "Checked-in"
-        },
-        {
-          "id": "e0088783-bd6a-45f4-bb15-a384d7180321",
-          "adult": 4,
-          "children": 0,
-          "typeRoomId": "5",
-          "typeRoom": "Beach Front Villas",
-          "roomPrice": 10249000,
-          "roomName": "",
-          "maxPerson": 6,
-          "status": "Booked"
-        }
-      ],
-      "status": "Booked",
-      "payment": {
-        "method": "Credit/Debit Card",
-        "payInfo": {
-          "cardNumber": "",
-          "nameOnCard": ""
-        }
-      },
-      "createdAt": "2022-08-05T14:26:15.849Z",
-      "updateAt": "2022-08-05T14:26:15.849Z",
-      "id": 10
-    },
-    {
-      "userInfo": {
-        "id": 2,
-        "email": "vien@gmail.com",
-        "firstName": "duc vien ",
-        "lastName": "truong",
-        "phone": "0293648",
-        "arrivalTime": "04:00 PM (16:00)",
-        "requests": ""
-      },
-      "date": {
-        "startDay": 1659582600000,
-        "endDay": 1659934740999
-      },
-      "nights": 2,
-      "options": [
-        {
-          "id": "f778a37d-ffcb-4f1b-918e-b111ef0061fc",
-          "adult": 2,
-          "children": 0,
-          "typeRoomId": "1",
-          "typeRoom": "Ocean Suite",
-          "roomPrice": 2475000,
-          "roomName": "",
-          "maxPerson": "2",
-          "status": "Expired"
-        }
-      ],
-      "status": "Booked",
-      "payment": {
-        "method": "Credit/Debit Card",
-        "payInfo": {
-          "cardNumber": "",
-          "nameOnCard": ""
-        }
-      },
-      "createdAt": "2022-08-05T14:42:25.617Z",
-      "updateAt": "2022-08-05T14:42:25.617Z",
-      "id": 11
     }
   ],
   "users": [
@@ -1105,7 +792,7 @@
     },
     {
       "role": "admin",
-      "email": "ducvien@gmail.com",
+      "email": "ducvien@mail.com",
       "password": "$2a$10$5kIFkpzdIe9Dj/z1wvdkyemGCgYM7FTU4mePdx2yRJBkEvCtcwqUe",
       "firstName": "Duc Vien",
       "lastName": "Truong",
@@ -1132,15 +819,6 @@
       "phone": "12345678",
       "id": 4,
       "key": 4
-    },
-    {
-      "email": "vominhphuc@gmail.com",
-      "password": "$2a$10$8zv6CxAwBSId0C8.HlDF5OJunf6TsiU65ANoQa.GHQ37W0FCxbMle",
-      "id": "1e34f77a-d238-48d8-884f-b6659e9b6794",
-      "role": "user",
-      "firstName": "Minh Phuc",
-      "lastName": "Vo",
-      "phone": "0238773948"
     }
   ],
   "promoCodes": [
