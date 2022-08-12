@@ -1090,7 +1090,98 @@
       "createdAt": "2022-08-05T14:42:25.617Z",
       "updateAt": "2022-08-05T14:42:25.617Z",
       "id": 11
-    }
+    },
+    {
+      "userInfo": {
+        "id": 2,
+        "email": "vien@gmail.com",
+        "firstName": "tam phan",
+        "lastName": "minh",
+        "phone": "0876183265",
+        "arrivalTime": "04:00 PM (16:00)",
+        "requests": ""
+      },
+      "date": {
+        "startDay": 1660280399000,
+        "endDay": 1660453199000
+      },
+      "nights": 2,
+      "options": [
+        {
+          "id": "f778a37d-ffcb-4f1b-918e-b1161fc",
+          "adult": 2,
+          "children": 0,
+          "typeRoomId": "1",
+          "typeRoom": "Ocean Suite",
+          "roomPrice": 2475000,
+          "roomName": "",
+          "maxPerson": "2",
+          "status": "Booked"
+        }
+      ],
+      "status": "Booked",
+      "payment": {
+        "method": "Credit/Debit Card",
+        "payInfo": {
+          "cardNumber": "",
+          "nameOnCard": ""
+        }
+      },
+      "createdAt": "2022-08-05T14:42:25.617Z",
+      "updateAt": "2022-08-05T14:42:25.617Z",
+      "id": 12
+    },
+    {
+      "userInfo": {
+        "id": 2,
+        "email": "cvmnb@mail.com",
+        "firstName": "vien",
+        "lastName": "truong",
+        "phone": "0183245691",
+        "arrivalTime": "",
+        "requests": ""
+      },
+      "date": {
+        "startDay": 1660280399000,
+        "endDay": 1660453199000
+      },
+      "nights": 2,
+      "options": [
+        {
+          "id": "a15306c-42dc-97a8-cb8ed7378e88",
+          "adult": 2,
+          "children": 0,
+          "typeRoomId": "2",
+          "typeRoom": "Ocean Deluxe",
+          "roomPrice": 1849000,
+          "roomName": "OD01",
+          "maxPerson": 2,
+          "status": "Checked-in"
+        },
+        {
+          "id": "e0088783-bd6a-45f4-bb15-a384d7180321",
+          "adult": 4,
+          "children": 0,
+          "typeRoomId": "5",
+          "typeRoom": "Beach Front Villas",
+          "roomPrice": 10249000,
+          "roomName": "",
+          "maxPerson": 6,
+          "status": "Booked"
+        }
+      ],
+      "status": "Booked",
+      "payment": {
+        "method": "Credit/Debit Card",
+        "payInfo": {
+          "cardNumber": "",
+          "nameOnCard": ""
+        }
+      },
+      "createdAt": "2022-08-05T14:26:15.849Z",
+      "updateAt": "2022-08-05T14:26:15.849Z",
+      "id": 10
+    },
   ],
   "users": [
     {
